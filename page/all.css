@@ -1,0 +1,258 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 18px;
+    color: white;
+}
+body a {
+	text-decoration: none;
+	color: white;
+	list-style: none;
+}
+.faq{
+	width: 100%;
+	background-color: black;
+}
+.main{
+	width:80%;
+	margin: auto;
+	display: flex;
+	border: 0px solid red;
+}
+.header{	
+	display: flex;
+}
+.header img{
+	width: 10%;
+}
+.header p{
+	font-size: 20px;
+    line-height: 32px;
+    margin-top: 25px;
+}
+.main .join {
+	border: 1px solid white;
+    font-size: 16px;
+    line-height: 14px;
+    padding: 8px 8px 8px 8px;
+    width: 130px;
+    border-radius: 5%;
+    margin-top: 22px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-top: 15px
+}
+.main .join:hover{
+	background-color: blue;
+}
+
+.main .sign {
+	font-size: 16px;
+    line-height: 14px;
+    padding: 5px;
+    width: 130px;
+	border-radius: 8%;
+	margin-top: 15px;
+	border: 0px solid white;
+	margin-bottom: 10px;
+	text-align: center;
+	padding-top: 15px;
+	margin-top: 22px;
+	background-color: red;
+}
+/*---------------middle sectin is here -----------*/
+.middle{
+	width:80%;
+	margin: auto;
+	border: 0px solid red;
+	color: black;
+	margin-top: 50px;
+}
+.middle a{
+    font-size: 20px;
+    color: black;
+}
+.middle_main{
+	display: flex;
+}
+.middle1{
+	width: 70%;
+	border: 0px solid black;
+}
+.middle h1{
+	font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    margin: 30PX 32px;
+
+}
+.middle h2{
+	font-size: 30px;
+    line-height: 50px;
+    margin: 30PX 32px;
+}
+.middle1 img{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.middle1 p{
+	font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 16px
+}
+.hr{
+	margin-top: 6%;
+	margin-bottom: 6%;
+
+}
+.middle1 a{
+	color: red;
+}
+.middle1 ol {
+	border: 0px solid red;
+	padding-left: 30px;
+	font-size: 17px;
+}
+.middle2{
+	width: 30%;
+	border: 1px solid blue;
+}
+.footer_upper_main{
+	background-color: #f2f2f2;
+	border: 0px solid red;
+	padding: 30px 0px 30px 0px;
+}
+.footer_upper{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.footer_upper h2{
+	color: black;
+}
+.callus_button  a{
+	color: black;
+	border: 1px solid black;
+	padding: 12px;
+	background-color: white;
+	padding-left: 20px;
+	margin-left: 20px;
+}
+footer{
+	background-color: black;
+}
+.middle_foot{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border: 0px solid red;
+}
+.middle_foot .faq_foot{
+	border: 0px solid red;
+}
+.faq_foot1 a{
+	padding-left: 10px;
+}
+.middle_foot .faq_foot a  select {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 7px 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.middle_foot .faq_foot a select option {
+    background:white ;
+    color: black;
+}
+.middle2{
+	width: 25%;
+	line-height: 15px;
+	letter-spacing: 2px;
+	position: absolute;
+	right: 5%;
+	top: 32%;
+}
+.middle2:hover{
+	box-shadow: inset 22em 1em gold;
+	transition: 2s;
+}
+.middle2_sub{
+	border: 0px solid red;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+.middle2_sub a{
+	font-size: 17px;
+	padding-left: 10px;
+}
+.middle2_sub img{
+	position: relative;
+	top: 5px;
+	margin-left: 8px;
+}
+.middle_border{
+	border: 5px solid #e50914;
+	border-radius: 5%;
+}
+
+/*----terme css part is here -0-0-0-0-0-0-0-0-0-0-0-0-0*/
+.terme {
+	width:80%;
+	margin: auto;
+	border: 0px solid red;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display:flex;
+	justify-content: space-between;
+	border: 0px solid red;
+}
+.terme a{
+	font-size: 20px;
+    color: black;
+}
+.terme .print button{
+	width: 100px;
+	height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.terme_con{
+	width: 80%;
+	margin: auto;
+	color: black;
+	border: 0px solid red;
+}
+.terme_con h1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 32px;
+}
+.terme_con p{
+	font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 16px;
+}
+.terme_con ol li {
+	border: 0px solid red;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.terme_p{
+	border: 0px solid red;
+	font-size: 24px;
+    line-height: 24px;
+    margin: 0 0 16px;
+}

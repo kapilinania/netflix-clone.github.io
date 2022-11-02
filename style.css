@@ -1,0 +1,546 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+.clear{
+    clear: both;
+}
+.main .head{
+    width: 80%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+    z-index: 999;
+    border: 0px solid red;
+}
+.heading h2{
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.main .head img {
+    width: 20%;
+  
+}
+.main .head a  select {
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 7px 10px;
+    border: 1px solid white;
+    border-radius: 8%;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+.main .head a select option {
+    background:black ;
+}
+
+.sign{
+    color: #fff;
+    text-decoration: none;
+    border:0px solid red ;
+    background-color: #e50914;
+    padding: 7px 17px;
+    border-radius: 5%;
+    font-size: 18px;
+    font-family:sans-serif;
+    position: absolute;
+    right: 0%;
+    top: 20%;
+}
+button{
+    cursor: pointer ;
+}
+/*---------head part is close ------------------*/
+.banner
+{
+    width: 100% ;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.banner .img_fit{
+    background-image: url(1.jpg); 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size:cover;
+}
+.banner .header_con{
+    z-index: 99;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+/*.banner .header_con .heading{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}*/
+.banner .header_con .heading h2{
+    font-size: 60px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    line-height: 1em;
+}
+.banner .header_con .heading h5{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+   font-family: "Gill Sans Extrabold", sans-serif;
+   padding-top: 15px;
+   font-weight: 400;
+}
+.banner .header_con .heading p{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+   font-family: "Gill Sans Extrabold", sans-serif;
+   padding-top: 32px;
+   padding-bottom: 20px;
+   font-weight: 500;
+}
+.banner .header_con .search_box{
+    text-align: center;
+}
+.banner .header_con .search_box input {
+    font-size: 17px;
+    border: 1px solid #8c8c8c;
+    color: black;
+    border-radius: 4px;
+    padding: 2px 2px 0px 0px;
+    min-width: 400px;
+    min-height: 60px;
+}
+.banner .header_con .search_box a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    border-radius: 2px;
+    background: #e50914;
+    box-shadow: 0 1px 0 rgb(0, 0, 0,0.45);
+    font-size: 25px;
+    line-height: 60px;
+    min-width: 300px;
+    padding:15px 22px 20px 20px;
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+.banner:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to bottom, #000, transparent);
+}
+.banner:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to top, #000, transparent);
+}
+/*--------------------hedaer part is end here --------------------------*/
+.first_part{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+   padding: 30px 80px;
+   border-bottom: 10px solid #111;
+   border-top: 10px solid #111;
+}
+.first_part .part_inside{
+    width: 40%;
+    border: 0px solid red;
+}
+.first_part .part_inside h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: white;
+}
+.first_part .part_inside p{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    font-family: sans-serif;
+}
+.first_part .first_part_img{
+    width: 45%;
+    border: 0px solid red;
+    /*background: url(tv.png);
+    z-index: 999;*/
+    border: 0px solid red;
+}
+.middle_video1 video{
+    display: table;
+    width: 450px;
+    position: absolute;
+    top: 115%;
+    right: 380px;
+    border: 0px solid red;
+}
+.middle_video2 video{
+    display: table;
+    width: 450px;
+    position: absolute;
+    top: 280%;
+    right: 200px;
+    border: 0px solid red;
+}
+.list{
+    width: 60%;
+    margin: auto;
+}
+.list h1{
+    color: white;
+    font-size: 40px;
+    padding: 48px 0px 50px 0px;
+    border: 0px solid red;
+    text-align: center;
+}
+.title{
+    background-color: #303030;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+.icon{
+    width: 20px;
+    position: relative;
+}
+.icon:before, .icon:after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 4px;
+    background-color: white;
+    top: -8px;
+}
+.icon:after{
+    transform: rotate(90deg);
+    transition: 0.5s linear;
+}
+.text{
+    background-color: #303030;
+    margin: 3px 0px;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 35px;
+    height: 0;
+    opacity: 0;
+}
+.list_item:target .text{
+    height: auto;
+    opacity: 1;
+    border-top: 2px solid #000;
+    margin-bottom: 6px;
+}
+.list_item:target .icon:after{
+    transform: rotateY(90deg);
+}
+
+/*---------------------------banner part 2 is here ---------------*/
+.banner2
+{
+    width: 100% ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 0px solid red;
+
+
+}
+
+.banner2 .header_con{
+    z-index: 99;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0px solid red;
+    margin:8% 5% 0% 0%;
+    
+
+}
+
+.banner2 .header_con .heading p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+   font-family: "Gill Sans Extrabold", sans-serif;
+   padding-top: 32px;
+   padding-bottom: 20px;
+   font-weight: 500;
+}
+.banner2 .header_con .search_box{
+    text-align: center;
+    border: 0px solid red;
+}
+.banner2 .header_con .search_box input {
+    font-size: 17px;
+    border: 1px solid #8c8c8c;
+    color: black;
+    border-radius: 4px;
+    padding: 2px 2px 0px 0px;
+    min-width: 400px;
+    min-height: 60px;
+    border: 0px solid red;
+}
+.banner2 .header_con .search_box a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    border-radius: 2px;
+    background: #e50914;
+    box-shadow: 0 1px 0 rgb(0, 0, 0,0.45);
+    font-size: 25px;
+    line-height: 60px;
+    min-width: 300px;
+    padding:15px 22px 20px 20px;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    border: 0px solid red;
+}
+.banner2_footer{
+   margin-top: 18%;
+   margin-bottom: 3%;
+  border: 0px solid red;
+   border-bottom: 10px solid #111;
+}
+
+/*-----footer part is here ----------------*/
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 50px 0;
+    width: 1000px;
+    border: 0px solid red;
+}
+.footer .one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.footer .one li{
+    padding: 7px 0px;
+}
+
+.item li a{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+
+}
+.item li a:hover{
+    border-bottom: 1px solid #ccc;
+
+}
+.footer_que{
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 60px;
+    border: 0px solid red;
+    color: #fff;
+    font-size: 20px;
+
+}
+.footer_part2{
+    margin: auto;
+    color: #fff;
+    width:850px;
+    font-size: 18px;
+}
+.footer_part2 .footer_btn a  select {
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 7px 10px;
+    border: 1px solid white;
+    
+}
+.footer_part2 .footer_btn    a select option {
+    background:black ;
+}
+.footer_part2 .footer_net{
+    padding: 30px 10px ;
+}
+
+/*------tablet devices -------------*/
+@media screen  and (max-width: 787px){
+
+
+}
+/*-------------mobile and small screen --------*/
+@media screen  and (max-width: 496px){
+
+}
+
+/*------login page --------------------*/
+.user{
+    border: 0px solid red;
+}
+.user .logo img{
+    position: absolute;
+    width: 20%;
+    z-index: 9999999;
+    background-color: none !important;
+}
+.banner_img{
+    background-image: url(1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.user:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to bottom, #000, transparent);
+}
+/*.user:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to top, #000, transparent);
+}*/
+.signin{
+    border: 0px solid red;
+    display: table;
+    padding: 50px 50px 00px 50px;
+    background: #000000bf;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    z-index: 999;
+}
+.signin p{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px
+}
+.signin .btn {
+    background-color: #333333;
+    padding: 15px 90px 12px 10px;
+    border-radius: 10px;
+}
+.signin .button{
+    background-color: red;
+    padding: 10px 190px 10px 10px;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;  
+}
+.signin .mid{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 15px;
+}
+.signin .foot{
+    display: flex;
+    margin-top: 10px;
+
+}
+.signin .foot .col{
+    color: #737373;
+}
+.signin .foot p{
+    font-size: 14px;
+}
+.signin .fit p{
+    color: #737373;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+.login_footer{
+    width: 60%;
+    border:0px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0,0,0,.75);
+    border: 0px solid red;
+    position: relative;
+    top: 30px;
+    left: 0px;
+}
+.login_footer_main a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 20px;
+}
+.footer_part21{
+    margin: auto;
+    color: #fff;
+    width:850px;
+    font-size: 18px;
+    padding-bottom: 6%;
+    margin-top: 4%;
+}
+.footer_part21 .footer_btn a  select {
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 7px 10px;
+    border: 1px solid white;
+    
+}
+.footer_part21 .footer_btn    a select option {
+    background:black ;
+}
